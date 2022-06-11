@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# This project was made to create a web to promote Home Care Services
+
+The main idea consist in create and webpage to provide Medical Home Care Service for older people or others whose could need this.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
