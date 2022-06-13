@@ -7,10 +7,6 @@ function App() {
     <div className="App">
       <header className="header">
       <NavBar />
-        <nav>
-          Nav
-        </nav>
-
       </header>
       <main>
          <p>

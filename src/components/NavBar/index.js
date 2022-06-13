@@ -1,6 +1,7 @@
 import React from 'react';
-import { Nav, Anchor } from './styles';
-import { MdHome, MdFavorite, MdPerson } from 'react-icons/md';
+import logo from '../../assets/logo_hcs.png'
+import { Nav, Anchor, Img} from './styles';
+// import { MdHome, MdFavorite, MdPerson } from 'react-icons/md';
 
 const SIZE = '32px';
 
@@ -8,13 +9,13 @@ export const NavBar = () => {
   return (
     <Nav>
       <Anchor href='/'>
-        <MdHome size={SIZE} />
+        <Img alt={'logo'} src={logo}></Img>
       </Anchor>
       <Anchor href='/'>
-        <MdFavorite size={SIZE} />
+
       </Anchor>
       <Anchor href='/'>
-        <MdPerson size={SIZE} />
+
       </Anchor>
     </Nav>
   );
