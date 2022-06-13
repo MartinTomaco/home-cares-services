@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  background: var(--main-bg-color);
 }
 .first-section{
   display: flex;
@@ -18,7 +20,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  color: #2d4b79;
+  color: var(--main-color);
 }
 .first-section p{
   max-width: 128ch;

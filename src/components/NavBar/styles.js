@@ -23,7 +23,7 @@ export const Nav = styled.nav`
 
 export const Anchor = styled.a`
   align-items: center;
-  color: #fff;
+  color: var(--main-bg-color);;
   display: flex;
   height: 100%;
   justify-content: center;
@@ -31,10 +31,10 @@ export const Anchor = styled.a`
 `;
 
 export const Img = styled.img`
-  color: #888;
+  color: var(--main-bg-color);;
   border-radius: 20%;
   height: 80%;
   text-decoration: none;
-  background-color: #f3f3f3;
+  background-color: var(--main-bg-color);
   box-shadow: 0px 4px 8px #0f3c19; 
 `;
