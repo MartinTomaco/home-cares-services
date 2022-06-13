@@ -1,7 +1,18 @@
 import styled from 'styled-components';
 
-export const Nav = styled.nav`
 
+
+export const Header = styled.header`
+  position: relative;
+  display: flex;
+  height: 60px;
+  z-index: 1030;
+  background-color: #28a745;
+  box-shadow: 0px 4px 8px #0f3c19;
+
+`;
+
+export const Nav = styled.nav`
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -12,7 +23,7 @@ export const Nav = styled.nav`
 
 export const Anchor = styled.a`
   align-items: center;
-  color: #888;
+  color: #fff;
   display: flex;
   height: 100%;
   justify-content: center;
