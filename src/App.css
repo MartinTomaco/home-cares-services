@@ -9,6 +9,7 @@
 }
 .walkingWithCaresImg{
   height: 100%;
+  max-width: 100%;
   object-fit: cover;
   object-position: center center;
   aspect-ratio: 3/2;
@@ -23,7 +24,7 @@
   color: var(--main-color);
 }
 .first-section p{
-  max-width: 128ch;
+  max-width: 60ch;
 }
 
 @media (min-width: 600px){
