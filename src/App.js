@@ -1,4 +1,5 @@
 import React from 'react';
+import { ServiceCard } from './components/ServiceCard';
 import { NavBar } from './components/NavBar';
 import { FaBath } from 'react-icons/fa';
 import { TbNurse } from 'react-icons/tb';
@@ -34,30 +35,22 @@ function App() {
             those strong family bonds intact.</p>
         </div>
       </section>
-
-      <section className="services-container">
+      <article>
         <div className='services-header'>
-            <TbNurse size={SIZE}/>
-            <FaHandHoldingHeart size={SIZE}/>
-            <IoIosNutrition size={SIZE}/>
-            <MdEmojiTransportation size={SIZE}/>
-            <RiWechatLine size={SIZE}/>
+          <TbNurse size={SIZE} />
+          <FaHandHoldingHeart size={SIZE} />
+          <IoIosNutrition size={SIZE} />
+          <MdEmojiTransportation size={SIZE} />
+          <RiWechatLine size={SIZE} />
           <p>Care Services for Aging Adults</p>
           <h2>Types of Home Care</h2>
         </div>
-        <div className='service-card'>
-          <figure>
-            <FaBath size={SIZE}/>
+        <section className="services-container">
 
-          </figure>
-          <div className='service-description'>
-            <p>Personal Care Services</p>
-            <text>
-            Assistance with bathing, grooming and dressing promotes independence, keeps vital routines in place and helps people age in place with dignity
-            </text>
-          </div>
-        </div>
-      </section>
+          <ServiceCard />
+        </section>
+      </article>
+
       <footer></footer>
     </div>
   );

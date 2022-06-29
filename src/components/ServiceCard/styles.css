@@ -1,0 +1,29 @@
+.service-card {
+  display: flex;
+  font-family: "Open Sans",sans-serif;
+  width: 600px;
+  border: 1px solid red;
+  justify-items: center;
+}
+.service-card figure{
+  float: left;
+  border: 1px solid red;
+  margin: 20px;
+  padding: auto 0;
+}
+.service-description{
+  margin-left: 120px;
+}
+.service-description p{
+  font-size: 28px;
+  color: var(--logo-color);
+  font-weight: bold;
+  
+  margin: 0 0 24px 0;
+}
+.service-description text{
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 400;
+ 
+}
