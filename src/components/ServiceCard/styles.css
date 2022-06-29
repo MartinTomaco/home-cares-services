@@ -3,8 +3,10 @@
   display: flex;
   justify-items: center;
   font-family: "Open Sans",sans-serif;
-  width:  500px;
-  height: 115px;
+  width: 90%;
+  max-width: 500px;
+  height: fit-content;
+  min-height: 115px;
   padding: 10px;
   margin: 5px;
   box-shadow: 3px 3px 11px 1px var(--main-color);
