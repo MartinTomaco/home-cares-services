@@ -3,8 +3,8 @@
   display: flex;
   justify-items: center;
   font-family: "Open Sans",sans-serif;
-  width: 600px;
-  height: 110px;
+  width:  500px;
+  height: 115px;
   padding: 10px;
   margin: 5px;
   box-shadow: 3px 3px 11px 1px var(--main-color);
@@ -27,7 +27,7 @@
   color: var(--logo-color);
   font-weight: bold;
   
-  margin: 0 0 10px 0;
+  margin: 0 0 6px 0;
 }
 .service-description text{
   text-align: left;
