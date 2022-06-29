@@ -47,7 +47,7 @@ function App() {
 
         </section>
         <section className='services-disclaimer'>
-          <p>Please contact your local Home Instead® franchise office to review which services are permitted and available in your area.</p>
+          <p>Please contact your local Home Care Service office to review which services are permitted and available in your area.</p>
         </section>
       </article>
 
