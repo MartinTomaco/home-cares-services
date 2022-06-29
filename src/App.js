@@ -1,17 +1,13 @@
 import React from 'react';
 import { ServiceCard } from './components/ServiceCard';
 import { NavBar } from './components/NavBar';
-import { FaBath } from 'react-icons/fa';
-import { TbNurse } from 'react-icons/tb';
-import { FaHandHoldingHeart } from 'react-icons/fa';
-import { IoIosNutrition } from 'react-icons/io';
-import { MdEmojiTransportation } from 'react-icons/md';
-import { RiWechatLine } from 'react-icons/ri';
+import { availableServices } from './assets/availableServices'
+
 import walkingWithCares from './assets/walkingWithCares.jpg'
 import './App.css';
 
 function App() {
-  const SIZE = '32px';
+
   return (
     <div className="App">
 
@@ -37,17 +33,21 @@ function App() {
       </section>
       <article>
         <div className='services-header'>
-          <TbNurse size={SIZE} />
-          <FaHandHoldingHeart size={SIZE} />
-          <IoIosNutrition size={SIZE} />
-          <MdEmojiTransportation size={SIZE} />
-          <RiWechatLine size={SIZE} />
           <p>Care Services for Aging Adults</p>
           <h2>Types of Home Care</h2>
         </div>
         <section className="services-container">
+          {availableServices.map((service) => (
+            <ServiceCard
+              icon={service.icon}
+              title={service.title}
+              description={service.description}
+            />
+          ))}
 
-          <ServiceCard />
+        </section>
+        <section className='services-disclaimer'>
+          <p>Please contact your local Home Instead® franchise office to review which services are permitted and available in your area.</p>
         </section>
       </article>
 

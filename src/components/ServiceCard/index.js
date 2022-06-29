@@ -2,20 +2,36 @@ import React from 'react';
 
 
 import { FaBath } from 'react-icons/fa';
+import { TbNurse } from 'react-icons/tb';
+import { FaHandHoldingHeart } from 'react-icons/fa';
+import { IoIosNutrition } from 'react-icons/io';
+import { MdEmojiTransportation } from 'react-icons/md';
+import { RiWechatLine } from 'react-icons/ri';
 import '../ServiceCard/styles.css';
-const SIZE = '32px';
 
-export const ServiceCard = () => {
+export const ServiceCard = (props) => {
+  const {icon,title,description} = props
+  const SIZE = '32px';
   return (
     <article className='service-card'>
     <figure>
-      <FaBath size={SIZE}/>
-
+      {icon==='FaBath'&&
+      <FaBath size={SIZE}/>}
+      {icon==='TbNurse'&&
+      <TbNurse size={SIZE}/>}
+      {icon==='FaHandHoldingHeart'&&
+      <FaHandHoldingHeart size={SIZE}/>}
+      {icon==='IoIosNutrition'&&
+      <IoIosNutrition size={SIZE}/>}
+      {icon==='MdEmojiTransportation'&&
+      <MdEmojiTransportation size={SIZE}/>}
+      {icon==='RiWechatLine'&&
+      <RiWechatLine size={SIZE}/>}
     </figure>
     <div className='service-description'>
-      <p>Personal Care Services</p>
+      <p>{title}</p>
       <text>
-      Assistance with bathing, grooming and dressing promotes independence, keeps vital routines in place and helps people age in place with dignity
+      {description}
       </text>
     </div>
   </article>
