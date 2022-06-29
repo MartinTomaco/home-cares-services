@@ -13,6 +13,7 @@
   border-radius: 30px;
 }
 .service-card figure{
+  color:  var(--main-color);
   float: left;
  /*  border: 1px solid red; */
   margin: auto 20px;

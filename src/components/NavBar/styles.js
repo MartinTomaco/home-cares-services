@@ -6,7 +6,6 @@ export const Header = styled.header`
   position: relative;
   display: flex;
   height: 60px;
-  z-index: 1030;
   background-color: #28a745;
   box-shadow: 0px 4px 8px #0f3c19;
 
@@ -18,7 +17,6 @@ export const Nav = styled.nav`
   align-items: center;
   height: 100%;
   width: 100%;
-  z-index: 1;
 `;
 
 export const Anchor = styled.a`

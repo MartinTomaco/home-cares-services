@@ -51,7 +51,9 @@ function App() {
         </section>
       </article>
 
-      <footer></footer>
+      <footer>
+        <span> ©2022 Home Care Services. All Rights Reserved.</span>
+      </footer>
     </div>
   );
 }
