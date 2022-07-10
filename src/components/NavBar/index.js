@@ -1,24 +1,24 @@
 import React from 'react';
 import logo from '../../assets/logo_hcs.png'
-import { Header, Nav, Anchor, Img } from './styles';
 import { MdSearch, MdMenu } from 'react-icons/md';
+import '../NavBar/styles.css';
 
 const SIZE = '32px';
 
 export const NavBar = () => {
   return (
-    <Header>
-      <Nav>
-        <Anchor href='/'>
-          <Img alt={'logo'} src={logo}></Img>
-        </Anchor>
-        <Anchor href='/'>
+    <header>
+      <nav>
+        <a href='/'>
+          <img className='imgLogo' alt={'logo'} src={logo}></img>
+        </a>
+        <a href='/'>
           <MdSearch size={SIZE} />
-        </Anchor>
-        <Anchor href='/'>
+        </a>
+        <a href='/'>
           <MdMenu size={SIZE} />
-        </Anchor>
-      </Nav>
-    </Header>
+        </a>
+      </nav>
+    </header>
   );
 };
