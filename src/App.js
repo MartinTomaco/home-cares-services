@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ServiceCard } from './components/ServiceCard';
 import { NavBar } from './components/NavBar';
 import { languageMainApp, availableServices } from './assets/availableLanguages'
@@ -7,7 +7,7 @@ import walkingWithCares from './assets/walkingWithCares.jpg'
 import './App.css';
 
 function App() {
-
+  
   return (
     <div className="App">
 
@@ -22,17 +22,17 @@ function App() {
           />
         </div>
         <div className='score-right'>
-          <h2>{languageMainApp['EN'].heroTitle}</h2>
-          <p>{languageMainApp['EN'].heroParagraph}</p>
+          <h2>{languageMainApp['ES'].heroTitle}</h2>
+          <p>{languageMainApp['ES'].heroParagraph}</p>
         </div>
       </section>
       <article>
         <div className='services-header'>
-          <p>{languageMainApp['EN'].subTitleOfService}</p>
-          <h2>{languageMainApp['EN'].typeOfService}</h2>
+          <p>{languageMainApp['ES'].subTitleOfService}</p>
+          <h2>{languageMainApp['ES'].typeOfService}</h2>
         </div>
         <section className="services-container">
-          {availableServices.map((service) => (
+          {availableServices['ES'].map((service) => (
             <ServiceCard
               icon={service.icon}
               title={service.title}
@@ -42,12 +42,12 @@ function App() {
 
         </section>
         <section className='services-disclaimer'>
-          <p>{languageMainApp['EN'].servicesDisclaimer}</p>
+          <p>{languageMainApp['ES'].servicesDisclaimer}</p>
         </section>
       </article>
 
       <footer>
-        <span>{languageMainApp['EN'].footerRights}</span>
+        <span>{languageMainApp['ES'].footerRights}</span>
       </footer>
     </div>
   );
