@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React, {useContext} from 'react';
 import { ServiceCard } from './components/ServiceCard';
 import { NavBar } from './components/NavBar';
 import { languageMainApp, availableServices } from './assets/availableLanguages'
-
+import {LangContextProvider} from './context/LangContext';
 import walkingWithCares from './assets/walkingWithCares.jpg'
 import './App.css';
 
 function App() {
-  
+ const lang='ES'
   return (
-    <div className="App">
+    <LangContextProvider>
+          <div className="App">
 
       <NavBar />
 
@@ -22,34 +23,37 @@ function App() {
           />
         </div>
         <div className='score-right'>
-          <h2>{languageMainApp['ES'].heroTitle}</h2>
-          <p>{languageMainApp['ES'].heroParagraph}</p>
+          <h2>{languageMainApp[`${lang}`].heroTitle}</h2>
+          <p>{languageMainApp[`${lang}`].heroParagraph}</p>
         </div>
       </section>
       <article>
         <div className='services-header'>
-          <p>{languageMainApp['ES'].subTitleOfService}</p>
-          <h2>{languageMainApp['ES'].typeOfService}</h2>
+          <p>{languageMainApp[`${lang}`].subTitleOfService}</p>
+          <h2>{languageMainApp[`${lang}`].typeOfService}</h2>
         </div>
         <section className="services-container">
-          {availableServices['ES'].map((service) => (
+          {availableServices[`${lang}`].map((service) => (
             <ServiceCard
               icon={service.icon}
               title={service.title}
               description={service.description}
+              key={service.id}
             />
           ))}
 
         </section>
         <section className='services-disclaimer'>
-          <p>{languageMainApp['ES'].servicesDisclaimer}</p>
+          <p>{languageMainApp[`${lang}`].servicesDisclaimer}</p>
         </section>
       </article>
 
       <footer>
-        <span>{languageMainApp['ES'].footerRights}</span>
+        <span>{languageMainApp[`${lang}`].footerRights}</span>
       </footer>
     </div>
+    </LangContextProvider>
+
   );
 }
 

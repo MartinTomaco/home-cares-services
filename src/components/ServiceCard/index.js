@@ -30,9 +30,9 @@ export const ServiceCard = (props) => {
     </figure>
     <div className='service-description'>
       <p>{title}</p>
-      <text>
+      <div>
       {description}
-      </text>
+      </div>
     </div>
   </article>
   );

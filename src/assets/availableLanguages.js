@@ -21,31 +21,37 @@ export const languageMainApp = {
 export const availableServices = {
     'EN': [
         {
+            id: 0,
             icon: 'FaBath',
             title: 'Personal Care Services',
             description: 'Assistance with bathing, grooming and dressing promotes independence, keeps vital routines in place and helps people age in place with dignity',
         },
         {
+            id: 1,
             icon: 'TbNurse',
             title: 'Nurse Directed Care',
             description: 'When tasks like medication management, glucose checks or wound care start to feel overwhelming, get personalized attention from the professionals to stay healthy',
         },
         {
+            id: 2,
             icon: 'FaHandHoldingHeart',
             title: 'Hospice Support',
             description: 'Everyone deserves the peace that comes from having a professional see to the family’s comfort so everyone can focus on making the most of precious time together',
         },
         {
+            id: 3,
             icon: 'IoIosNutrition',
             title: 'Meal Prep & Home Helper',
             description: 'Nutritious meals and a tidy space make for a comfortable home life',
         },
         {
+            id: 4,
             icon: 'MdEmojiTransportation',
             title: 'Transportation',
             description: 'Safe transportation services keep the rhythm of everyday life in place with rides to the hair salon, grocery store, worship services and other events',
         },
         {
+            id: 5,
             icon: 'RiWechatLine',
             title: 'Companionship',
             description: 'All of us crave connection. Not only does a chat or laugh with our CAREGivers bring conversation and a friend to work puzzles or play cards, it can help stave off feelings of loneliness and isolation',
@@ -53,31 +59,37 @@ export const availableServices = {
 
     'ES': [
         {   
+            id: 0,
             icon: 'FaBath',
             title: 'Servicios de cuidado personal',
             description: 'La asistencia para bañarse, arreglarse y vestirse promueve la independencia, mantiene rutinas vitales y ayuda a las personas a envejecer con dignidad.',
         },
         {
+            id: 1,
             icon: 'TbNurse',
             title: 'Atención dirigida por enfermeras',
             description: 'Cuando tareas como la administración de medicamentos, controles de glucosa o el cuidado de heridas comiencen a sentirse abrumadoras, obtenga atención personalizada de los profesionales para una administración segura.',
         },
         {
+            id: 2,
             icon: 'FaHandHoldingHeart',
             title: 'Cuidados de hospicio',
             description: 'Todos merecen la paz que proviene de tener un profesional que se ocupe de la comodidad de la familia para que todos puedan concentrarse en aprovechar al máximo el valioso tiempo juntos.',
         },
         {
+            id: 3,
             icon: 'IoIosNutrition',
             title: 'Preparación de comidas y ayudante en el hogar',
             description: 'Las comidas nutritivas y un espacio ordenado hacen que la vida en el hogar sea cómoda',
         },
         {
+            id: 4,
             icon: 'MdEmojiTransportation',
             title: 'Asistencia en transportes',
             description: 'Los servicios de transporte seguro mantienen el ritmo de la vida cotidiana con viajes a la peluquería, al supermercado, a los servicios religiosos y a otros eventos.',
         },
         {
+            id: 5,
             icon: 'RiWechatLine',
             title: 'Compañerismo',
             description: 'Todos anhelamos la conexión. Una charla o una risa con nuestros acompañantes no solo trae conversación y un amigo para resolver un rompecabezas o jugar cartas, sino que también puede ayudar a evitar sentimientos de soledad y aislamiento.',
