@@ -47,7 +47,7 @@ section > button {
   box-shadow: 0px 4px 8px #0f3c19;
 }
 section > button:last-of-type {
-  margin-right: 10px;
+  margin-right: 30px;
 }
 button:hover {
   border-color: var(--main-bg-color);

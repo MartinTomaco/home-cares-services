@@ -1,3 +1,15 @@
+export const languageMainApp = {
+    
+    'EN': {
+        heroTitle: 'Live Well with Our Home Care Services',
+        heroParagraph:'The comfort of home can’t be beat. Home care services let people flourish in the everyday life they already know and love – while getting a little help to stay independent and mobile. Home Instead personalized care plans lift the caregiving burden from family members to keep those strong family bonds intact.',
+        subTitleOfService:'Care Services for Aging Adults',
+        typeOfService:'Types of Home Care',
+        servicesDisclaimer:'Please contact your local Home Care Service office to review which services are permitted and available in your area.',
+        footerRights:'©2022 Home Care Services. All Rights Reserved.',
+    },
+}
+
 export const availableServices = [
     {
         icon: 'FaBath',

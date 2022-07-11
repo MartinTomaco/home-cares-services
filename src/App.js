@@ -1,7 +1,7 @@
 import React from 'react';
 import { ServiceCard } from './components/ServiceCard';
 import { NavBar } from './components/NavBar';
-import { availableServices } from './assets/availableServices'
+import { languageMainApp, availableServices } from './assets/availableLanguages'
 
 import walkingWithCares from './assets/walkingWithCares.jpg'
 import './App.css';
@@ -22,19 +22,14 @@ function App() {
           />
         </div>
         <div className='score-right'>
-          <h2>Live Well with Our Home Care Services</h2>
-          <p>The comfort of home can’t be beat. Home care
-            services let people flourish in the everyday life
-            they already know and love – while getting a little
-            help to stay independent and mobile. Home Instead personalized
-            care plans lift the caregiving burden from family members to keep
-            those strong family bonds intact.</p>
+          <h2>{languageMainApp['EN'].heroTitle}</h2>
+          <p>{languageMainApp['EN'].heroParagraph}</p>
         </div>
       </section>
       <article>
         <div className='services-header'>
-          <p>Care Services for Aging Adults</p>
-          <h2>Types of Home Care</h2>
+          <p>{languageMainApp['EN'].subTitleOfService}</p>
+          <h2>{languageMainApp['EN'].typeOfService}</h2>
         </div>
         <section className="services-container">
           {availableServices.map((service) => (
@@ -47,12 +42,12 @@ function App() {
 
         </section>
         <section className='services-disclaimer'>
-          <p>Please contact your local Home Care Service office to review which services are permitted and available in your area.</p>
+          <p>{languageMainApp['EN'].servicesDisclaimer}</p>
         </section>
       </article>
 
       <footer>
-        <span> ©2022 Home Care Services. All Rights Reserved.</span>
+        <span>{languageMainApp['EN'].footerRights}</span>
       </footer>
     </div>
   );
