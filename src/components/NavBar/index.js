@@ -1,16 +1,18 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
 import LangContext from '../../context/LangContext';
 import logo from '../../assets/logo_hcs.png'
 import { MdMenu } from 'react-icons/md';
 import '../NavBar/styles.css';
 
+
 const SIZE = '32px';
 
 export const NavBar = () => {
-  const context = useContext(LangContext)
-  const handleClick = (event) =>{
-    console.log('Hola...',event.target.innerText)
-    console.log('context: ', context)
+  const { lang, setLang } = useContext(LangContext)
+  const handleClick = (event) => {
+     console.log('langFromContext:',lang)
+    if (event.target.innerText === 'ES') { setLang('ES') }
+    if (event.target.innerText === 'EN') { setLang('EN') }
   }
   return (
     <header>
@@ -24,10 +26,10 @@ export const NavBar = () => {
 
         <section className='navRight'>
 
-            <button onClick={(event)=>handleClick(event)}>ES</button>
-            <button onClick={(event)=>handleClick(event)}>EN</button>
+          <button onClick={(event) => handleClick(event)}>ES</button>
+          <button onClick={(event) => handleClick(event)}>EN</button>
 
-            <MdMenu size={SIZE} />
+          <MdMenu size={SIZE} />
 
         </section>
       </nav>
