@@ -10,9 +10,6 @@ import './App.css';
 
 function App() {
   let { lang } = useContext(LangContext);
-  console.log('langFromContent', lang)
-
-
 
   return (
 

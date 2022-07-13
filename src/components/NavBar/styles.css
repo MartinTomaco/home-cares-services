@@ -6,7 +6,7 @@ header {
   box-shadow: 0px 4px 8px #0f3c19;
 }
 
-nav {
+nav.mainNav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -29,7 +29,7 @@ nav {
 }
 .navRight {
   display: flex;
-  align-items: center;
+ 
   color: var(--main-bg-color);
 
   height: 100%;
@@ -39,6 +39,7 @@ nav {
 section > button {
   color: var(--main-bg-color);
   
+  align-self: center;
   margin: 0 5px;
   border-radius: 28px;
   border: 1px solid  var(--logo-color);

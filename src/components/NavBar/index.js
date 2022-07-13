@@ -1,11 +1,8 @@
 import React, { useContext } from 'react';
+import { HamburMenu } from '../HamburMenu';
 import LangContext from '../../context/LangContext';
 import logo from '../../assets/logo_hcs.png'
-import { MdMenu } from 'react-icons/md';
 import '../NavBar/styles.css';
-
-
-const SIZE = '32px';
 
 export const NavBar = () => {
   const { lang, setLang } = useContext(LangContext)
@@ -16,7 +13,7 @@ export const NavBar = () => {
   }
   return (
     <header>
-      <nav>
+      <nav className='mainNav'>
         <section className='navLeft'>
 
           <img className='imgLogo' alt={'logo'} src={logo}></img>
@@ -28,11 +25,13 @@ export const NavBar = () => {
 
           <button onClick={(event) => handleClick(event)}>ES</button>
           <button onClick={(event) => handleClick(event)}>EN</button>
-
-          <MdMenu size={SIZE} />
+          <HamburMenu/>
+          
 
         </section>
+        
       </nav>
+      
     </header>
   );
 };
