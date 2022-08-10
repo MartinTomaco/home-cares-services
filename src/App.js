@@ -1,7 +1,9 @@
 import React, { useContext } from 'react';
 import { ServiceCard } from './components/ServiceCard';
 import { NavBar } from './components/NavBar';
+import { ContactSection } from './components/ContactSection';
 import { languageMainApp, availableServices } from './assets/availableLanguages'
+
 
 
 import LangContext from './context/LangContext';
@@ -46,6 +48,7 @@ function App() {
         <section className='services-disclaimer'>
           <p>{languageMainApp[`${lang}`].servicesDisclaimer}</p>
         </section>
+        <ContactSection/>
       </article>
 
       <footer>
