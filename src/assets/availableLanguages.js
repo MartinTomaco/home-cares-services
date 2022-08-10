@@ -6,6 +6,8 @@ export const languageMainApp = {
         subTitleOfService: 'Care Services for Aging Adults',
         typeOfService: 'Types of Home Care',
         servicesDisclaimer: 'Please contact your local Home Care Service office to review which services are permitted and available in your area.',
+        contactUs: 'Contact Us',
+        contactText: 'When you need in-home care services, look to "Home Care Services" to deliver the excellence and compassion you deserve. Learn more about the experienced senior in home care​ we deliver.',
         footerRights: '©2022 Home Care Services. All Rights Reserved.',
     },
     'ES': {
@@ -14,6 +16,8 @@ export const languageMainApp = {
         subTitleOfService: 'Servicios de atención para adultos mayores',
         typeOfService: 'Tipos de atención domiciliaria',
         servicesDisclaimer: 'Comuníquese con su oficina local Home Care Services para consultar qué servicios están disponibles en su área.',
+        contactUs: 'Contactenos',
+        contactText: 'Cuando necesite servicios de atención domiciliaria en "Home Care Services" estamos para brindarle la excelencia y el cuidado que se merece. Conozca más sobre el cuidado de personas en el hogar que brindamos.',
         footerRights: '©2022 Home Care Services. Todos los derechos reservados.',
     },
 }

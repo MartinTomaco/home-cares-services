@@ -7,16 +7,18 @@ import { HiOutlineMail } from 'react-icons/hi';
 import '../ContactSection/styles.css';
 
 export const ContactSection = (props) => {
-  // const {icon,title,description} = props
+  
+  const {title,description} = props
   const SIZE = '32px';
   const INSTAGRAM = '@hcs.homecareservices' ;
   const WHATSAPP = '+5492213144094' ;
   const MAIL = 'hcs.homecareservices@gmail.com' ;
+
   return (
     <section className='contact-section'>
     <article className='contact-title'>
-    <h2>Contact Us</h2>
-    <p>When you need in-home care services, look to "Home Care Services" to deliver the excellence and compassion you deserve. Learn more about the experienced senior in home care​ we deliver.</p>
+    <h2>{title}</h2>
+    <p>{description}</p>
     </article>
     <article className='contact-types'>
 

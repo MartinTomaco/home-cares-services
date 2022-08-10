@@ -48,7 +48,10 @@ function App() {
         <section className='services-disclaimer'>
           <p>{languageMainApp[`${lang}`].servicesDisclaimer}</p>
         </section>
-        <ContactSection/>
+        <ContactSection
+          title={languageMainApp[`${lang}`].contactUs}
+          description={languageMainApp[`${lang}`].contactText}
+        />
       </article>
 
       <footer>
