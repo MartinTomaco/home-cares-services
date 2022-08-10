@@ -38,6 +38,12 @@
   text-align: left;
   margin-left: 20px;
 }
+.services-header > h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 50px;
+}
 .services-container {
   display: flex;
   flex-direction: column;
