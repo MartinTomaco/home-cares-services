@@ -29,7 +29,7 @@ function App() {
           <p>{languageMainApp[`${lang}`].heroParagraph}</p>
         </div>
       </section>
-      <article>
+      <section className='services-section'>
         <div className='services-header'>
           <p>{languageMainApp[`${lang}`].subTitleOfService}</p>
           <h2>{languageMainApp[`${lang}`].typeOfService}</h2>
@@ -48,11 +48,11 @@ function App() {
         <section className='services-disclaimer'>
           <p>{languageMainApp[`${lang}`].servicesDisclaimer}</p>
         </section>
+        </section>
         <ContactSection
           title={languageMainApp[`${lang}`].contactUs}
           description={languageMainApp[`${lang}`].contactText}
         />
-      </article>
 
       <footer>
         <span>{languageMainApp[`${lang}`].footerRights}</span>

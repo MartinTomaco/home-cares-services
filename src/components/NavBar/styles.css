@@ -2,8 +2,8 @@ header {
   position: relative;
   display: flex;
   height: 60px;
-  background-color: #28a745;
-  box-shadow: 0px 4px 8px #0f3c19;
+  background-color: var(--logo-color);
+  box-shadow: 0px 4px 8px var(--logo-shadows);
 }
 
 nav.mainNav {
@@ -25,7 +25,7 @@ nav.mainNav {
   height: 80%;
   text-decoration: none;
   background-color: var(--main-bg-color);
-  box-shadow: 0px 4px 8px #0f3c19;
+  box-shadow: 0px 4px 8px var(--logo-shadows);
 }
 .navRight {
   display: flex;
@@ -45,7 +45,7 @@ section > button {
   border: 1px solid  var(--logo-color);
   text-decoration: none;
   background-color:transparent;
-  box-shadow: 0px 4px 8px #0f3c19;
+  box-shadow: 0px 4px 8px var(--logo-shadows);
 }
 /* section > button:last-of-type {
   margin-right: 30px;

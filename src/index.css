@@ -15,6 +15,7 @@ code {
 :root {
     box-sizing: border-box;
   --logo-color: #28a745;
+  --logo-shadows: #0f3c19;
   --main-color: #2d4b79;
   --main-bg-color: #fbfbfb;
 }
