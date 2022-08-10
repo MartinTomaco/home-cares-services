@@ -1,23 +1,20 @@
-
 .App {
   text-align: center;
   background: var(--main-bg-color);
-  color:  var(--main-color)
+  color: var(--main-color);
 }
-.first-section{
+.first-section {
   display: flex;
   flex-direction: column;
-
 }
-.walkingWithCaresImg{
+.walkingWithCaresImg {
   height: 100%;
   max-width: 100%;
   object-fit: cover;
   object-position: center center;
   aspect-ratio: 3/2;
 }
-.score-right{
-  
+.score-right {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,19 +23,20 @@
   color: var(--main-color);
   background: white;
 }
-.first-section p{
+.first-section p {
   max-width: 60ch;
 }
 .services-header {
   display: flex;
   flex-direction: column;
   align-items: left;
+  padding-top: 35px;
 }
-.services-header p ,h2{
-  text-align: left;
+.services-header p,
+h2 {
   margin-left: 20px;
 }
-.services-header > h2{
+.services-header > h2 {
   font-size: 32px;
   font-weight: 700;
   line-height: 1.1;
@@ -49,14 +47,13 @@
   flex-direction: column;
   align-items: center;
 }
-.services-disclaimer{
+.services-disclaimer {
   padding-top: 30px;
   padding-bottom: 10px;
   padding-inline: 25px;
 }
 
-
-footer{
+footer {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -65,28 +62,35 @@ footer{
   background-color: #28a745;
   box-shadow: 0px -4px 8px #0f3c19;
 }
-footer span{
+footer span {
   font-size: small;
   margin-top: 20px;
 }
 
-@media (min-width: 600px){
-.first-section {
+@media (min-width: 600px) {
+  .first-section {
     display: flex;
     flex-direction: row;
+  }
+  .walkingWithCaresImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .score-left {
+    width: 50%;
+  }
+  .score-right {
+    width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
+    align-items: center;
+    justify-items: center;
 
-}
-.walkingWithCaresImg{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center center;
-}
-.score-left{
-  width: 50%;
-}
-.score-right{
-  width: 50%;
-}
-
+  }
 }

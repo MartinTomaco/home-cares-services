@@ -29,11 +29,11 @@ nav.mainNav {
 }
 .navRight {
   display: flex;
- 
+  
   color: var(--main-bg-color);
 
   height: 100%;
-  justify-content: center;
+  justify-content: right;
 }
 
 section > button {

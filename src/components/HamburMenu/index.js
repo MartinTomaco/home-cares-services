@@ -28,35 +28,26 @@ export const HamburMenu = () => {
 
             <nav className={showMenu ? 'menu show' : 'menu'}>
                 <div className={showMenu ? 'menu-branding show' : 'menu-branding'}>
-                    <div className="portrait">
+
                         <img className='imgLogo' alt={'logo'} src={logo}></img>
-                    </div>
+
                 </div>
 
                 <ul className={showMenu ? 'menu-nav show' : 'menu-nav'}>
-                    <li className={showMenu ? 'nav-item show' : 'nav-item'}>
-                        <a href="/" className="nav-link">
-                            HOME
-                        </a>
-                    </li>
 
+                    <hr/>
                     <li className={showMenu ? 'nav-item show' : 'nav-item'}>
                         <a href="/" className="nav-link">
-                            ABOUT ME
+                            Type of services
                         </a>
                     </li>
-
+                    <hr/>
                     <li className={showMenu ? 'nav-item show' : 'nav-item'}>
                         <a href="/" className="nav-link">
-                            MY WORK
+                            Contact Us
                         </a>
                     </li>
-
-                    <li className={showMenu ? 'nav-item show' : 'nav-item'}>
-                        <a href="/" className="nav-link">
-                            CONTACT ME
-                        </a>
-                    </li>
+                    <hr/>
                 </ul>
             </nav>
         </>
