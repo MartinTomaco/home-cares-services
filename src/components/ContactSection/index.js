@@ -7,11 +7,11 @@ import { HiOutlineMail } from 'react-icons/hi';
 import '../ContactSection/styles.css';
 
 export const ContactSection = (props) => {
-  
+
   const {title,description} = props
   const SIZE = '32px';
-  const INSTAGRAM = '@hcs.homecareservices' ;
   const WHATSAPP = '+5492213144094' ;
+  const INSTAGRAM = '@hcs.homecareservices' ;
   const MAIL = 'hcs.homecareservices@gmail.com' ;
 
   return (
@@ -23,12 +23,12 @@ export const ContactSection = (props) => {
     <article className='contact-types'>
 
       <div>
-      <BsInstagram size={SIZE}/>
-      <span> {INSTAGRAM} </span>
-      </div>
-      <div>
       <BsWhatsapp size={SIZE}/>
       <span> {WHATSAPP} </span>
+      </div>
+      <div>
+      <BsInstagram size={SIZE}/>
+      <span> {INSTAGRAM} </span>
       </div>
       <div>
       <HiOutlineMail size={SIZE}/>

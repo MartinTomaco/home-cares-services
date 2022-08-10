@@ -21,7 +21,7 @@ nav.mainNav {
 }
 .imgLogo {
   color: var(--main-bg-color);
-  border-radius: 20%;
+  border-radius: 50%;
   height: 80%;
   text-decoration: none;
   background-color: var(--main-bg-color);

@@ -17,7 +17,7 @@ export const languageMainApp = {
         typeOfService: 'Tipos de atención domiciliaria',
         servicesDisclaimer: 'Comuníquese con su oficina local Home Care Services para consultar qué servicios están disponibles en su área.',
         contactUs: 'Contactenos',
-        contactText: 'Cuando necesite servicios de atención domiciliaria en "Home Care Services" estamos para brindarle la excelencia y el cuidado que se merece. Conozca más sobre el cuidado de personas en el hogar que brindamos.',
+        contactText: 'Cuando necesite servicios de atención domiciliaria en "Home Care Services" estamos para brindarle la excelencia y el cuidado que se merece. Conozca más sobre el cuidado que le brindamos a las personas en el hogar.',
         footerRights: '©2022 Home Care Services. Todos los derechos reservados.',
     },
 }
