@@ -25,7 +25,7 @@ export const NavBar = () => {
 
           <button onClick={(event) => handleClick(event)}>ES</button>
           <button onClick={(event) => handleClick(event)}>EN</button>
-          {/* <HamburMenu/> */}
+          <HamburMenu/>
           
 
         </section>
