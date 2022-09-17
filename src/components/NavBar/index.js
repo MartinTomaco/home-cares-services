@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { HamburMenu } from '../HamburMenu';
 import LangContext from '../../context/LangContext';
-import logo from '../../assets/logo_hcs.png'
+import logo from '../../assets/logo_mec.png'
 import '../NavBar/styles.css';
 
 export const NavBar = () => {
@@ -25,7 +25,7 @@ export const NavBar = () => {
 
           <button onClick={(event) => handleClick(event)}>ES</button>
           <button onClick={(event) => handleClick(event)}>EN</button>
-          <HamburMenu/>
+          {/* <HamburMenu/> To be implemented...*/} 
           
 
         </section>
