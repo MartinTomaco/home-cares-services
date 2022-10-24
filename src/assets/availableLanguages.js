@@ -27,8 +27,8 @@ export const languageMainApp = {
         typeOfService: 'Tipi di assistenza domiciliare',
         servicesDisclaimer: "Contatta il tuo ufficio Better at Home per scoprire quali servizi sono disponibili nella tua zona.",
         contactUs: 'Contattaci',
-        contactText: 'Quando hai bisogno di servizi di assistenza domiciliare presso "Best at Home", siamo qui per fornirti l\'eccellenza e le cure che meriti. Scopri di più sull\'assistenza che forniamo alle persone a casa.',
-        footerRights: '©2022 Meglio a casa. Tutti i diritti riservati.',
+        contactText: 'Quando hai bisogno di servizi di assistenza domiciliare presso "Mejor en Casa", siamo qui per fornirti l\'eccellenza e le cure che meriti. Scopri di più sull\'assistenza che forniamo alle persone a casa.',
+        footerRights: '©2022 Mejor en Casa. Tutti i diritti riservati.',
     },
     'BR': {
         heroTitle: 'Viva bem com nossos serviços de atendimento domiciliar',
@@ -37,8 +37,8 @@ export const languageMainApp = {
         typeOfService: 'Tipos de atendimento domiciliar',
         servicesDisclaimer: 'Entre em contato com o escritório local da Better at Home para descobrir quais serviços estão disponíveis em sua área.',
         contactUs: 'Fale Conosco',
-        contactText: 'Quando você precisar de serviços de home care na "Best at Home" estamos aqui para lhe fornecer a excelência e o cuidado que você merece. Saiba mais sobre os cuidados que prestamos às pessoas em casa.',
-        footerRights: '©2022 Better at Home. Todos os direitos reservados.',
+        contactText: 'Quando você precisar de serviços de home care na "Mejor en Casa" estamos aqui para lhe fornecer a excelência e o cuidado que você merece. Saiba mais sobre os cuidados que prestamos às pessoas em casa.',
+        footerRights: '©2022 Mejor en Casa. Todos os direitos reservados.',
     },
 }
 
