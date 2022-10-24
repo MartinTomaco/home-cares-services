@@ -17,8 +17,14 @@ export const NavBar = () => {
     <header>
       <nav className='mainNav'>
         <section className='navLeft'>
-
-          <img className='imgLogo' alt={'logo'} src={logo}></img>
+          <img 
+          className='imgLogo' 
+          alt={'logo'} 
+          src={logo}
+          width="70" 
+          height="200"
+          >
+          </img>
 
         </section>
 

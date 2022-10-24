@@ -12,7 +12,8 @@
   max-width: 100%;
   object-fit: cover;
   object-position: center center;
-  aspect-ratio: 3/2;
+  /*aspect-ratio: 3/2;*/
+  aspect-ratio: attr(width) / attr(height);
 }
 .score-right {
   display: flex;
