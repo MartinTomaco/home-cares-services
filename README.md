@@ -4,7 +4,7 @@ The main idea consist in create and webpage to provide Medical Home Care Service
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can visit the web site here: [Home Care Services](https://homecareservices.vercel.app/)
+You can visit the web site here: [Home Care Services](https://mejorencasa.vercel.app/)
 
 ## Available Scripts
 
