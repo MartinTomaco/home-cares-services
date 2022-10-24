@@ -11,8 +11,8 @@ export const ContactSection = (props) => {
   const {title,description} = props
   const SIZE = '32px';
   const WHATSAPP = '+5492213144094' ;
-  const INSTAGRAM = '@hcs.homecareservices' ;
-  const MAIL = 'hcs.homecareservices@gmail.com' ;
+  const INSTAGRAM = '@1.mejor_en_casa' ;
+  const MAIL = '1.mejorencasa@gmail.com' ;
 
   return (
     <section className='contact-section'>

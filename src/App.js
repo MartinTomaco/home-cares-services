@@ -22,6 +22,7 @@ function App() {
           <img className='walkingWithCaresImg'
             alt='A care-partner walking with an old-lady'
             src={walkingWithCares}
+            width="640" height="360"
           />
         </div>
         <div className='score-right'>
